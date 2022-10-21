@@ -1,0 +1,22 @@
+movie:
+    css: div.lister-item
+    xpath: null
+    multiple: true
+    type: Text
+    children:
+        name:
+            css: 'h3.lister-item-header a'
+            xpath: null
+            multiple: true
+            type: Text
+        runtime:
+            css: span.runtime
+            xpath: null
+            multiple: true
+            type: Text
+        sr:
+            css: span.lister-item-index
+            xpath: null
+            multiple: true
+            type: Text
+
