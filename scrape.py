@@ -3,7 +3,7 @@ from selectorlib import Extractor
 
 async def scrape(url):
     headers = {
-        'authority': 'www.blackcoffer.com',
+        'authority': 'www.imdb.com',
         'pragma': 'no-cache',
         'cache-control': 'no-cache',
         'dnt': '1',
